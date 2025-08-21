@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teach - EduPath University</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f8fc;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #2980b9;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 50px;
+      background: #dfefff;
+    }
+
+    .header h1 {
+      color: #2c3e50;
+      font-size: 36px;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Form Section */
+    .form-container {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #2980b9;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1a5276;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="login.html">Login</a>
+    <a href="registration.html">Registration</a>
+    <a href="teach.html">Teach</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Join as an Instructor</h1>
+    <p>Share your knowledge with thousands of learners and grow with EduPath University</p>
+  </div>
+
+  <!-- Teach Form -->
+  <div class="form-container">
+    <h2>Instructor Application Form</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="subject">Subject Expertise</label>
+      <input type="text" id="subject" placeholder="E.g. Data Science, Marketing, Physics" required>
+
+      <label for="experience">Teaching Experience</label>
+      <input type="text" id="experience" placeholder="e.g. 5 years" required>
+
+      <label for="bio">Short Bio</label>
+      <textarea id="bio" rows="4" placeholder="Write a short bio about yourself..."></textarea>
+
+      <label for="mode">Preferred Mode</label>
+      <select id="mode">
+        <option>Online</option>
+        <option>Offline</option>
+        <option>Both</option>
+      </select>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+</body>
+</html>

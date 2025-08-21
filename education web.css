@@ -1,0 +1,111 @@
+header{
+position:sticky;
+top:0;
+z-index:40;
+background:rgba(31, 78, 187, 0.868);
+backdrop-filter:blur(10px);
+border-bottom:5px groove rgba(128, 128, 128, 0.473);
+    border-left:5px groove rgba(128, 128, 128, 0.607) ;
+
+border-radius: 8px;
+text-align: center;
+height: 100px;
+width: 1000px;
+}
+nav.n1 a{
+
+    padding: 20px;
+} 
+body{
+    background-color:rgba(124, 154, 224, 0.511) ;
+    width: 1000px;
+    border-bottom:5px groove rgba(128, 128, 128, 0.473);
+     
+
+    
+    
+    
+    
+}
+p.s1{
+    background:rgba(31, 78, 187, 0.868);
+    border-radius: 20px;
+    width:180px;
+    
+
+}
+:hover.s1 {
+    width: 190px;
+    margin: 20px;
+    border-bottom:5px groove rgba(128, 128, 128, 0.473);
+    border-left:5px groove rgba(128, 128, 128, 0.607) ;
+
+}
+div.a3 img{
+    width: 1000px;
+    height: 300px;
+    padding-top: 20px;
+    
+}
+main.h {
+    margin-left: 220px;
+}
+button{
+    background-color: rgba(53, 53, 233, 0.98);
+    padding: 10px;
+    width: 400px;
+    border-radius: 8px;
+   
+    margin-right: 120px;
+    
+    
+}
+a{
+    color: black;
+}
+button{
+    background-color: rgba(53, 53, 233, 0.98);
+    padding: 10px;
+    width: 400px;
+    border-radius: 8px;
+    
+    margin-right: 120px;
+
+    
+    
+    
+}
+div.f1{
+    background-color: rgba(31, 78, 187, 0.868);
+    border: 2px solid black;
+    height:100px;
+    width: 1000px;
+    display: flex;
+    padding: 20px;
+    
+    border-radius: 8px;
+
+
+    
+}
+div.f2{
+    border: 2px solid rgb(25, 2, 90);
+    height:110px;
+    width: 230px;
+    display: flex;
+margin: 10px;
+background-color: rgba(124, 154, 224, 0.511) ;
+border-radius: 8px;
+padding: -50px;
+    
+ }
+
+.tabs{display:flex;gap:8px;margin:18px 0 ;}
+.tabs a{border:1px solid #24335e;background:#202c57;color:#cfe0ff; ;
+
+}
+.tabs a.active, .tabs a:hover{background:linear-gradient(135deg,#354b82,#152247)}
+/* Use :target to switch */
+.catalog > div{display:none}
+.catalog > div:target{display:block}
+.catalog > div:first-child{display:block}

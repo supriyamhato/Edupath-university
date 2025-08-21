@@ -1,0 +1,84 @@
+header{
+    position:sticky;
+top:0;
+z-index:40;
+background:rgba(31, 78, 187, 0.868);
+backdrop-filter:blur(10px);
+border-bottom:5px groove rgba(128, 128, 128, 0.473);
+    border-left:5px groove rgba(128, 128, 128, 0.607) ;
+text-align: center;
+padding-top: 8px;
+width: 648px;
+
+}
+article.card{
+    border: 2px solid rgb(25, 2, 90);
+    height:100px;
+    width: 600px;
+    display: flex;
+margin: 10px;
+background-color: rgba(47, 88, 185, 0.511) ;
+border-radius: 8px;
+padding: 10px;
+    
+}
+body{
+    background-color: rgba(124, 154, 224, 0.511) ;
+    border: 2px solid rgb(25, 2, 90);
+    width: 650px;
+
+ margin-left: 397px;
+}
+.chip{
+   
+    height:10px;
+    width: 200px;
+    display: flex;
+margin: 10px;
+background-color: rgba(47, 88, 185, 0.511) ;
+border-radius: 8px;
+padding: 10px;
+
+}
+h3{
+    height:70px;
+    width: 200px;
+    display: flex;
+margin: 10px;
+background-color: rgba(47, 88, 185, 0.511) ;
+border-radius: 8px;
+padding: 10px;
+    
+}
+.small{
+    height:70px;
+    width: 200px;
+    display: flex;
+margin: 10px;
+background-color: rgba(47, 88, 185, 0.511) ;
+border-radius: 8px;
+padding: 10px;
+}
+div.g1{
+    background:rgba(31, 78, 187, 0.868);
+backdrop-filter:blur(10px);
+border-bottom:5px groove rgba(128, 128, 128, 0.473);
+    border-left:5px groove rgba(128, 128, 128, 0.607) ;
+text-align: center;
+padding-top: 8px;
+width: 648px;
+display: flex;
+height: 150px;
+
+
+}
+
+   
+.tabs{display:flex;gap:8px;margin:18px 0}
+.tabs a{padding:10px 14px;border-radius:12px;border:1px solid #24335e;background:#202c57;color:#cfe0ff;margin-left: 250px;
+}
+.tabs a.active, .tabs a:hover{background:linear-gradient(135deg,#354b82,#152247)}
+/* Use :target to switch */
+.catalog > div{display:none}
+.catalog > div:target{display:block}
+.catalog > div:first-child{display:block}

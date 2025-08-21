@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPath University - Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e9f3ff; /* light blue shade */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0073e6; /* same blue as navbar */
+      padding: 15px 0;
+      text-align: center;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 500px;
+      background: #ffffff;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #0073e6;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #333;
+    }
+    input[type="text"], 
+    input[type="email"], 
+    input[type="number"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      font-size: 14px;
+      outline: none;
+      transition: border 0.3s;
+    }
+    input:focus {
+      border-color: #0073e6;
+    }
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #0073e6;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #005bb5;
+    }
+    p {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    EduPath University - Registration
+  </header>
+
+  <div class="container">
+    <h2>Create Your Account</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="number" id="phone" placeholder="Enter your phone number" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+
+      <label for="cpassword">Confirm Password:</label>
+      <input type="password" id="cpassword" placeholder="Confirm your password" required>
+
+      <button type="submit" class="btn">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+</body>
+</html>
